@@ -8,3 +8,6 @@ var studenti40procet = studenti*navstevnici*pocetPredstaveni*0.4
 var plneVstupne60procent = prijem*0.6
 var prijemSeStudenty = plneVstupne60procent+studenti40procet
 document.body.innerHTML += "<p>" + Math.floor(prijemSeStudenty) + " €" +"</p>"
+
+
+document.body.innerHTML += "<p>" + (Math.floor(Math.random() * 6)+1) + "</p>"
