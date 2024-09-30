@@ -10,4 +10,4 @@ var prijemSeStudenty = plneVstupne60procent+studenti40procet
 document.body.innerHTML += "<p>" + Math.floor(prijemSeStudenty) + " €" +"</p>"
 
 
-document.body.innerHTML += "<p>" + (Math.floor(Math.random() * 6)+1) + "</p>"
+document.body.innerHTML += "<p>" + "hod kostkou: " + (Math.floor(Math.random() * 6)+1) + "</p>"
